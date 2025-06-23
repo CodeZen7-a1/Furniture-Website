@@ -1,0 +1,370 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/*  Navbaar css*/
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding: 0 20px;
+    border-bottom: 1px ridge rgb(98, 95, 95);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+.brand h3{
+    font-size: 24px;
+
+}
+.brand{
+    text-shadow: 5px 5px 3px #4e5150, 0 0 2px aquamarine, 7px 7px 5px #5db4ab ;
+}
+.navList{
+    display:flex;
+    gap: 20px;
+    list-style: none;
+
+}
+.navItem{
+
+}
+.navLink{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 03s;
+
+}
+.navLink:hover{
+    color: rgb(193, 45, 74);
+}
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+.navIcons{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.navIcon i {
+    font-size: 18px;
+}
+
+/*description*/
+.HeaderSection{
+    height:500px;
+    width:100%;
+    position: relative;
+}
+.HeaderSection img{
+    height:100%;
+    width:100%;
+}
+.HeaderContent{
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    position:absolute;
+    right:66%;
+    bottom:30%;
+    text-align: center;
+    line-height: 1.4;
+}
+.orange-btn{
+    background-color: rgb(245, 112, 10);
+    color:#fff;
+    font-size: 15px;
+    font-weight:bold ;
+    text-decoration: none;
+
+}
+.green-btn{
+    background-color: rgb(13, 110, 24);
+    color:#fff;
+    font-size: 15px;
+    font-weight:bold ;
+    text-decoration: none;
+
+}
+
+/*product list*/
+#Furniture h2{
+    text-shadow: 4px 4px 4px gray, 0 0 2px aquamarine;
+}
+.prodListMain{
+    height:650px;
+    width:100%;
+    display:inline-block;
+    margin-left: 10px;
+    margin-right:10px;
+
+}
+.prodList1{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+}
+.prodList2{
+    display: flex;
+    justify-content:space-evenly;
+}
+.prodCard1, .prodCard2, .prodCard3, .prodCard4, .prodCard5, .prodCard6{
+    height: 320px;
+    width:30%;
+    background-color: rgb(216, 207, 207);
+    padding: 20px 10px;
+}
+.prodCard1 img{
+    height:80%;
+    width:100%;
+}
+.prodCard2 img{
+    height:80%;
+    width:100%;
+}
+.prodCard3 img{
+    height:80%;
+    width:100%;
+}
+.prodCard4 img{
+    height:80%;
+    width:100%;
+}
+.prodCard5 img{
+    height:80%;
+    width:100%;
+}
+.prodCard6 img{
+    height:80%;
+    width:100%;
+}
+.buyNowBTN{
+    background-color: rgb(216, 207, 207);
+    border-style: none;
+    color: rgb(9, 100, 125);
+    margin-left: 180px;
+}
+
+
+.prodCard1:hover, .prodCard2:hover, .prodCard3:hover, .prodCard4:hover, .prodCard5:hover, .prodCard6:hover{
+    box-shadow: 3px 3px 4px 5px rgb(9, 9, 9);
+
+}
+
+
+/*about us section*/
+.aboutusSection{
+    height:500px;
+    width:100%;
+    background-color: rgb(216, 207, 207);
+    position: relative;
+}
+.aboutusSection img{
+    height:95%;
+    width:95%;
+    margin-left: 40px;
+    margin-top: 7px;
+}
+.aboutusContent{
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    position:absolute;
+    left:60%;
+    bottom:30%;
+    height:300px;
+    width:33%;
+    text-align: center;
+    line-height: 1.4;
+    background-color: rgb(216, 207, 207);
+    margin-top: 10px;
+}
+.aboutusContent h2{
+    text-shadow: 5px 5px 3px #4e5150, 7px 7px 5px rgb(201, 83, 62); ;
+}
+.readmore-btn{
+    background-color: rgb(7, 139, 222);
+    color:#fff;
+    font-size: 15px;
+    margin-top: 25px;
+    border: 3px solid rgb(7, 139, 222);
+
+}
+
+/*
+.blogListMain{
+    height:600px;
+    width:100%;
+
+}
+.blogList1{
+    display:flex;
+    justify-content: space-evenly;
+}
+.blogCard1{
+    background-color: rgb(216, 207, 207);
+    width:30%;
+    height:500px;
+}
+.blogCard2{
+    background-color: rgb(216, 207, 207);
+    width:30%;
+    height:500px;
+}
+.blogCard3{
+    background-color: rgb(216, 207, 207);
+    width:3%;
+    height:500px;
+}
+.blogCard1 img{
+    border-radius: 5px;
+    height:75%;
+}
+.blogCard2 img{
+    border-radius: 5px;
+    height:75%;
+}
+.blogCard3 img{
+    border-radius: 5px;
+    height:75%;
+}*/
+
+#Blogs h2{
+    text-shadow: 4px 4px 4px gray, 0 0 2px aquamarine;
+}
+.blogListMain{
+    height:550px;
+    width:100%;
+    margin-left: 10px;
+    margin-right:10px;
+
+}
+.blogList1{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+}
+
+.blogCard1, .blogCard2, .blogCard3{
+    height: 500px;
+    width:30%;
+    background-color: rgb(216, 207, 207);
+    padding: 20px 10px;
+}
+.blogCard1 img{
+    height:60%;
+    width:100%;
+}
+.blogCard2 img{
+    height:60%;
+    width:100%;
+}
+.blogCard3 img{
+    height:60%;
+    width:100%;
+}
+.blogCard1 p{
+    height:40%;
+    width:100%;
+}
+.blogCard2 p{
+    height:40%;
+    width:100%;
+}
+.blogCard3 p{
+    height:40%;
+    width:100%;
+}
+
+.blogCard1:hover, .blogCard2:hover, .blogCard3:hover{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(25, 92, 121);
+}
+.blogCard1 img:hover, .blogCard2 img:hover, .blogCard3 img:hover{
+    border-radius: 30px;
+}
+
+/*footer*/
+.footer{
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+.detailsFooter{
+    margin-top: 100px;
+}
+.commonFooter{
+    display:flex;
+    width:80%;
+    margin: 5px auto;
+    padding-top: 20px;
+}
+.column{
+    flex:1;
+    text-align: center;
+}
+.COLS {
+    display:flex;
+    text-align:center;
+    margin-left: 140px;
+}
+.col a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.block{
+    color:#fff;
+}
+.call:hover, .email:hover ,.location:hover  {
+    color: #ff0000;
+}
+.InstaImg{
+    width:60px;
+    height: 60px; 
+}
+.contactFormFooter p{
+    font-size: xx-large;
+}
+.customIcon:hover{
+    color:red;
+}
+footer p{
+    text-align: center;
+}
+.iconBTN:hover{
+    background-color: #ff0000;
+}
+.topArrow{
+    width: 70px;
+    position:sticky;
+    left: 95%;
+    bottom: 30px;
+    border: 3px ridge rgb(128, 128, 128);
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+}
+.textTop{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
